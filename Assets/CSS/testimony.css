@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Assets/PurpleSparklyBG_HTML.jpg);
+    background-repeat: repeat; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container-header{
+    /* position: fixed; */
+    background: white;
+}
+
+
+/* HEADER */
+
+#name{
+    margin: 20px;
+    font-family: 'Lucida Sans Regular';
+    color: #D764EF;
+    text-align: center;
+}
+
+#tagline{
+    margin :20px;
+    font-family: 'Lucida Sans';
+    color:#CA7FF5;
+    text-align: center;
+}
+
+/* #line{
+    color: #48ACE4;
+} */
+
+/* NAVBARRR */
+nav ul {
+    background-color: #F3B3F5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 230px;
+    display:flex;
+    padding: 20px;
+    /* margin: 20px; */
+
+}
+
+
+
+/* untuk home, register, subscription, etc */
+
+nav ul li a {
+    text-decoration: none;
+    color: #4e086e;
+    
+}
+
+/* TESTIMONY CONTENT */
+.testimony {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color:#E8AEF5;
+    padding: 30px;
+    color: #612181;
+    letter-spacing: 2px;
+}
+
+.container-testi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+/* PERSON 1 - SUNHYE */
+.person-1{
+    margin: 40px;
+    align-items: left;
+    background-color: #F3B3F5;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+.sunhye-profile{
+    margin: 30px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.sunhye-profile-details{
+    text-align: left;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#sunhye-package{
+    font-size: small;
+    color: #9051af;
+}
+
+#sunhye-profession{
+    color: #9051af;
+}
+
+
+#sunhye-testimony-text{
+
+    background-color: #f8d1ff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* PERSON 2 - JIANA */
+.person-2{
+    margin: 40px;
+    align-items: left;
+    background-color: #F3B3F5;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+.jiana-profile{
+    margin: 30px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.jiana-profile-details{
+    text-align: left;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#jiana-package{
+    font-size: small;
+    color: #9051af;
+}
+
+#jiana-profession{
+    color: #9051af;
+}
+
+
+#jiana-testimony-text{
+
+    background-color: #f8d1ff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* PERSON 3 - YEONJUNG */
+.person-3{
+    margin: 40px;
+    align-items: left;
+    background-color: #F3B3F5;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+.yeonjung-profile{
+    margin: 30px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.yeonjung-profile-details{
+    text-align: left;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#yeonjung-package{
+    font-size: small;
+    color: #9051af;
+}
+
+#yeonjung-profession{
+    color: #9051af;
+}
+
+
+#yeonjung-testimony-text{
+
+    background-color: #f8d1ff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* PERSON 4 - SCARA */
+.person-4{
+    margin: 40px;
+    align-items: left;
+    background-color: #F3B3F5;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+.scara-profile{
+    margin: 30px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 170px;
+    height: 130px;
+    border-radius: 50px;
+}
+
+.scara-profile-details{
+    text-align: left;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#scara-package{
+    font-size: small;
+    color: #9051af;
+}
+
+#scara-profession{
+    color: #9051af;
+}
+
+
+#scara-testimony-text{
+
+    background-color: #f8d1ff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #464659;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-footer{
+    color: #D8A5E1;
+}
+
+.footers{
+    font-family: 'Times New Roman';
+    color: #D8A5E1;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style: none;
+    display:list-item;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* for tablet & desktop */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+}
+
+/* for mobile  */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+    }
+
+}

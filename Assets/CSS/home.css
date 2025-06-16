@@ -1,0 +1,701 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Assets/PurpleSparklyBG_HTML.jpg);
+    background-repeat: repeat; */
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    /* filter: blur(30px); */
+
+}
+
+
+
+/* HEADER */
+
+#name{
+    margin: 20px;
+    font-family: 'Lucida Sans Regular';
+    color: #D764EF;
+    text-align: center;
+}
+
+#tagline{
+    margin :20px;
+    font-family: 'Lucida Sans';
+    color:#CA7FF5;
+    text-align: center;
+}
+
+/* #line{
+    color: #48ACE4;
+} */
+
+/* NAVBARRR */
+nav ul {
+    background-color: #F3B3F5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 230px;
+    display:flex;
+    padding: 20px;
+    /* margin: 20px; */
+
+}
+
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #4e086e;
+    
+}
+
+/* CONTENT */
+.content-intro{
+    font-family: 'Lucida Sans';
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    color: #AB5FD3;
+    border-radius: 20px;
+    /* background-image: url("Assets/PurpleBackground-_HTML.jpg"); */
+}
+
+.content-overview{
+    background-color: #E8AEF5;
+    border-radius: 50px;
+    font-family: 'Lucida Sans';
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+/* BEST SELLER PKG */
+.best-seller{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color:#E8AEF5;
+    padding: 30px;
+    color: #612181;
+    letter-spacing: 2px;
+    /* background-image: url("Assets/PurpleBackground-_HTML.jpg"); */
+}
+
+.image-resize{
+    width: 400px;
+    height: 270px;
+    flex: 0 0 auto;
+    border-radius: 30px;
+}
+
+.overview-text{
+    background-color: #E8AEF5;
+    font-family: 'Lucida Sans Unicode';
+    margin: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    flex: 1;
+    color: #612181;
+}
+
+.overview-text a{
+    color: #b624fffc;
+    text-decoration: none;
+}
+
+/* OFFERS */
+
+.content-offer{
+    font-family: 'Lucida Sans';
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/* Programming module */
+.offer-1{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.offer-1:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-1 a{
+    text-decoration: none;
+}
+
+.programming{
+    width: 200px;
+    height: 150px;
+}
+
+.programming-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 15px;
+    color: #612181;
+}
+
+.programming-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-programming{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-programming:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* toefl ietls program */
+.offer-2{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-2:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-2 a{
+    text-decoration: none;
+}
+
+
+.TOEFL-IELTS{
+    width: 200px;
+    height: 150px;
+}
+
+.toefl-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    color: #612181;
+}
+
+.toefl-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-toefl{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-toefl:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* college entrance prep */
+.offer-3{
+    /* flex-direction: row; */
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-3:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-3 a{
+    text-decoration: none;
+}
+
+
+.college-prep{
+    width: 200px;
+    height: 180px;
+
+}
+
+.college-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    color: #612181;
+    text-align: center;
+}
+
+.college-text-details{
+    text-align: left;
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-college{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-college:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* accounting */
+.offer-4{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto ;
+}
+
+.offer-4:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.offer-4 a{
+    text-decoration: none;
+}
+
+
+.accounting{
+    width: 200px;
+    height: 180px;
+}
+
+.accounting-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+    text-align: center;
+    color: #612181;
+}
+
+.accounting-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-accounting{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-accounting:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+/* FAQ */
+.faq{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color:#E8AEF5;
+    padding: 30px;
+    color: #612181;
+    letter-spacing: 2px;
+    /* background-image: url("Assets/PurpleBackground-_HTML.jpg"); */
+}
+
+.container-faq{
+    font-family: 'Lucida Sans';
+    margin: 30x;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+   
+}
+
+#faq-1{
+    flex-direction: row;
+    margin: 20px;
+
+    color: #AB5FD3;
+}
+
+#ans-1{
+    margin: 20px;
+    color: #612181;
+}
+
+#faq-2{
+    flex-direction: row;
+    margin: 20px;
+
+    color: #AB5FD3;
+}
+
+#ans-2{
+    margin: 20px;
+    color: #612181;
+}
+
+#faq-3{
+    flex-direction: row;
+    margin: 20px;
+
+    color: #AB5FD3;
+}
+
+#ans-3{
+    margin: 20px;
+    color: #612181;
+}
+
+#faq-4{
+    flex-direction: row;
+    margin: 20px;
+
+    color: #AB5FD3;
+}
+
+#ans-4{
+    margin: 20px;
+    color: #612181;
+}
+
+
+/* TESTIMONY */
+.testimony{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color:#E8AEF5;
+    padding: 30px;
+    color: #612181;
+    letter-spacing: 2px;
+}
+
+.container-testi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 5px;
+}
+
+/* PERSON 1 - SUNHYE */
+.person-1{
+    margin: 40px;
+    align-items: left;
+    background-color: #F3B3F5;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+.person-1:hover{
+    margin: 40px;
+    align-items: left;
+    background-color: #d878df;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+
+.sunhye-profile{
+    margin: 30px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.sunhye-profile-details{
+    text-align: left;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#sunhye-package{
+    font-size: small;
+    color: #9051af;
+}
+
+#sunhye-profession{
+    color: #9051af;
+}
+
+
+#sunhye-testimony-text{
+
+    background-color: #f8d1ff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+#read-more-testimony{
+    text-decoration: none;
+    color: #b637c4;
+}
+
+/* FOOTER */
+footer{
+    background-color: #464659;
+    padding: 20px;
+    text-align: left;
+}
+
+.container-footer{
+    color: #D8A5E1;
+}
+
+.footers{
+    font-family: 'Times New Roman';
+    color: #D8A5E1;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style: none;
+    display:list-item;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* for tablet & desktop */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .content-intro{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .content-offer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+
+    .offer-1{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+
+    .offer-2{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+    .offer-3{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .offer-4{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* for mobile  */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+    }
+
+    .content-overview{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-intro{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .content-offer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+
+
+    .offer-1{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+
+    .offer-2{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px
+    }
+    .offer-3{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .offer-4{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+}
+

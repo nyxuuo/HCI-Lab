@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Assets/PurpleSparklyBG_HTML.jpg);
+    background-repeat: repeat; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container-header{
+    /* position: fixed; */
+    background: white;
+}
+
+
+/* HEADER */
+
+#name{
+    margin: 20px;
+    font-family: 'Lucida Sans Regular';
+    color: #D764EF;
+    text-align: center;
+}
+
+#tagline{
+    margin :20px;
+    font-family: 'Lucida Sans';
+    color:#CA7FF5;
+    text-align: center;
+}
+
+/* #line{
+    color: #48ACE4;
+} */
+
+/* NAVBARRR */
+nav ul {
+    background-color: #F3B3F5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 230px;
+    display:flex;
+    padding: 20px;
+    /* margin: 20px; */
+
+}
+
+
+
+/* untuk home, register, subscription, etc */
+
+nav ul li a {
+    text-decoration: none;
+    color: #4e086e;
+    
+}
+/* FORM CONTENT */
+
+.container-form{
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: auto;
+    font-family: 'Lucida Sans';
+    background-repeat:round;
+    background-blend-mode:lighten;
+    opacity: 90%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container-form h2{
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    /* background-image: url("Assets/porplebackground_HTMLregis.jpg"); */
+    border-radius: 25px;
+    background-color: #e0aaff;
+    color: #551679;
+    background-blend-mode: luminosity;
+}
+
+label{
+    margin-bottom: 50px;
+    color: #b637c4;
+}
+
+#message{
+    color: rgb(248, 0, 136);
+
+}
+
+input[type="text"], input[type="email"], input[type="tel"],
+input[type="password"] {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ec86fe;
+    border-radius: 10px;
+}
+
+#form{
+    /* background-color: #fdc4f9; */
+    margin: 20px;
+    padding: 30px;
+    border-radius: 40px;
+    width: 30%;
+    opacity: 100%;;
+    background-color: #cf99ef;
+    /* background-image: url(Assets/PurpleSparklyBG_HTML.jpg);    background-blend-mode: hard-light; */
+}
+
+.submit-button{
+    margin: 20px;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    background-color: #b637c4;
+    color: #faddff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.submit-button:hover{
+    background-color: #F3B3F5;
+    color: #b496b4;
+}
+
+
+#error{
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(248, 0, 136);
+    display: none;
+}
+
+#register{
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 10px;
+    color: #b637c4;
+
+}
+
+#register a {
+    color: #4e086e;
+}
+
+/* FOOTER */
+footer{
+    background-color: #464659;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-footer{
+    color: #D8A5E1;
+}
+
+.footers{
+    font-family: 'Times New Roman';
+    color: #D8A5E1;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style: none;
+    display:list-item;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* for tablet & desktop */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+}
+
+/* for mobile  */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+    }
+
+    .container-form{
+
+        height: auto;
+    }
+
+    #form{
+        height: auto;
+
+    }
+
+    h2{
+        width: auto;
+    }
+}

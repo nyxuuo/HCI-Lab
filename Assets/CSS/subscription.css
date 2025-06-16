@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Assets/PurpleSparklyBG_HTML.jpg);
+    background-repeat: repeat; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container-header{
+    /* position: fixed; */
+    background: white;
+}
+
+
+/* HEADER */
+
+#name{
+    margin: 20px;
+    font-family: 'Lucida Sans Regular';
+    color: #D764EF;
+    text-align: center;
+}
+
+#tagline{
+    margin :20px;
+    font-family: 'Lucida Sans';
+    color:#CA7FF5;
+    text-align: center;
+}
+
+/* #line{
+    color: #48ACE4;
+} */
+
+/* NAVBARRR */
+nav ul {
+    background-color: #F3B3F5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 230px;
+    display:flex;
+    padding: 20px;
+    /* margin: 20px; */
+
+}
+
+
+
+/* untuk home, register, subscription, etc */
+
+nav ul li a {
+    text-decoration: none;
+    color: #4e086e;
+    
+}
+
+/* CONTENT SUBSCRIPTION */
+/* BEST SELLER PKG */
+.subs-package{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    background-color:#E8AEF5;
+    padding: 30px;
+    color: #612181;
+    letter-spacing: 2px;
+}
+
+.image-resize{
+    width: 400px;
+    height: 270px;
+    flex: 0 0 auto;
+}
+
+.overview-text{
+    font-family: 'Lucida Sans Unicode';
+    margin: 30px;
+    font-size: 15px;
+    flex: 1;
+}
+
+/* OFFERS */
+
+.content-offer{
+    font-family: 'Lucida Sans';
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/* Programming module */
+.offer-1{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.offer-1:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.programming{
+    width: 200px;
+    height: 150px;
+}
+
+.programming-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 15px;
+    color: #612181;
+}
+
+.programming-offer-details a{
+    text-decoration: none;
+}
+
+.programming-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-programming{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-programming:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#price-programming{
+    text-align: center;
+}
+
+/* toefl ietls program */
+.offer-2{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-2:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.TOEFL-IELTS{
+    width: 200px;
+    height: 150px;
+}
+
+.toefl-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    color: #612181;
+}
+
+.toefl-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-toefl{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+#learn-more-toefl a{
+    text-decoration: none;
+}
+
+#learn-more-toefl:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#price-toefl{
+    text-align: center;
+}
+
+/* college entrance prep */
+.offer-3{
+    /* flex-direction: row; */
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.offer-3:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.college-prep{
+    width: 200px;
+    height: 180px;
+
+}
+
+.college-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    color: #612181;
+    text-align: center;
+}
+
+.college-text-details{
+    text-align: left;
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+}
+
+#learn-more-college{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-college a{
+    text-decoration: none;
+}
+
+
+#learn-more-college:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#price-college{
+    text-align: center;
+}
+
+/* accounting */
+.offer-4{
+    background-color: #F3B3F5;
+    margin: 50px;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto ;
+}
+
+.offer-4:hover{
+    background-color: #d878df;
+    margin: 50px;
+    padding: 30px;
+    border: 5 px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
+.accounting{
+    width: 200px;
+    height: 180px;
+    text-align: center;
+}
+
+.accounting-offer-details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+    color: #612181;
+    text-align: center;
+}
+
+.accounting-text-details{
+    flex: 1;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans';
+    text-align: left;
+}
+
+#learn-more-accounting{
+    text-align: center;
+    background-color: #f5cfff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#learn-more-accounting a{
+    text-decoration: none;
+}
+
+
+#learn-more-accounting:hover{
+    text-align: center;
+    font-size: larger;
+    background-color: #f0b4ff;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#price-accounting{
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #464659;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-footer{
+    color: #D8A5E1;
+}
+
+.footers{
+    font-family: 'Times New Roman';
+    color: #D8A5E1;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    list-style: none;
+    display:list-item;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* for tablet & desktop */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+}
+
+/* for mobile  */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+    }
+
+}

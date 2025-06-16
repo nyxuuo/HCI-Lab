@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\CSS\login.css">
+    <title>Jenius Academy</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class = "container-header">
+            <!-- Logo -->
+            <!-- <div id="logo"> -->
+                <h1 id="name"><sup>Jenius</sup>Academy</h1>
+                <h4 id="tagline">Fun Learning, Bright Futures</h4>
+                <!-- <hr id="line"> -->
+            <!-- </div> -->
+            <!-- NAVBAR START -->
+            <nav> <!--UNTUK NAVBAR-->
+                <ul> <!--bikin home, regis, sub, testi, learn-->
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="register.html">Register</a> / <a href="login.html">Log In</a></li>
+                    <li><a href="subscription.html">Subscription</a></li>
+                    <li><a href="testimony.html">Testimony</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <!-- bikin list biar jadinya nyamping -->
+                    
+                </ul>
+            </nav>
+            <!-- NAVBAR END -->
+        </div>
+    </header>
+
+    <!-- CONTENT START -->
+    <div class="container-form">
+        <form action="" id="form">
+            <h2>Log In</h2>
+            
+
+            <!-- FORM EMAIL -->
+            <label for="email">E-Mail</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <!-- FORM PASSWORD -->
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password" required>
+            <br><br>
+
+            <!-- FORM PASSWORD MESSAGE -->
+            <div id="message">
+                <p><b>Password must contain: </p>
+                <ul>
+                    <li id="length" class="invalid">Min. 8 characters;</li>
+                    <li id="upper-lower" class="invalid">Uppercase and lowercase;</li>
+                    <li id="digit" class="invalid">Min. 1 digit.</li>
+                </b></ul>
+            </div>
+
+            <!-- FORM CONFIRM PASSWORD -->
+            <label for="confirm-password"> Confirm Password</label>
+            <br>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+            <br><br>
+
+
+            <!-- SUBMIT -->
+            <p id="error"><b>Error. Please try again.</b></p>
+            <input type="submit" value="Submit" class="submit-button">
+            
+            <p id="register">Don't have an account? 
+                <a href="register.html">Sign up </a></p>
+        </form>
+    </div>
+    <!-- CONTENT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container-footer">
+            <!-- Copyright -->
+            <div class="footers">
+                <h2>Jenius Academy</h2>
+                <h4>Fun Learning, Bright Futures</h4>
+
+
+                <ul class="fast-link">
+                <li><a href="homepage.html">&Colon;  Home</a></li>
+                <br>
+                <li><a href="register.html">&Colon;  Register</a></li>
+                <br>
+                <li><a href="subscription.html">&Colon;  Subscription</a></li>
+                <br>
+                <li><a href="testimony.html">&Colon;  Testimony</a></li>
+                <br>
+                <li><a href="learn.html">&Colon;  Learn</a></li>
+                </ul>
+            </div>
+            <!-- social medias -->
+            <div class="footers">
+                <h4>Follow us on other platforms</h4>
+                <ul class="socmed">
+                    <li><a href="facebook.com">&gt; TikTok</a></li>
+                    <br>
+                    <li><a href="instagram.com">&gt; Instagram</a></li>
+                    <br>
+                    <li><a href="x.com">&gt; X</a></li>
+
+                </ul>
+            </div>
+
+            <p>&copy; Jenius Academy 2024. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+</body>
+<script src ="\Javascript\login.js"></script>
+</html>

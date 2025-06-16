@@ -1,0 +1,151 @@
+﻿I.	Dokumentasi & Penjelasan Website
+-	Penjelasan Website : Website yang dibuat adalah website untuk belajar yang bernama Jenius Academy. Website ini dibuat agar orang-orang dari berbagai kalangan dapat belajar secara mudah, dengan tersedianya video online gratis dan beberapa paket lengkap untuk mata pelajaran yang bisa diakses seumur hidup. Berikut adalah beberapa fiturnya:
+a.	Home : terdapat welcoming message, navbar, best-selling packages, testimony,
+b.	Register/Login : Register berisi nama, nama belakang, e-mail, password dan confirm password
+c.	Subscription : terdapat paket pembelajaran yang bisa diambil user, dan berlaku untuk seumur hidup setelah dibeli
+d.	Testimony : Berisi testimony penggunaan website dari beberapa user yang sudah pernah menggunakan website ini.
+e.	Learn : terdapat berbagai video pembelajaran yang dapat diakses oleh user, dan terdapat juga filter untuk pelajaran agar user lebih mudah dalam memlilih
+-	Link untuk referensi asset: https://docs.google.com/document/d/1dlLM51dJpAWHrWNVAzJglt50ryirNv4H9ZQ36354vrQ/edit?usp=sharing 
+
+
+FIGMA
+Home page
+Girl studying-1
+https://www.examsecuritiesprep.com/images/2022/11/01/study-girl.png 
+Girl studying-2
+https://mommiesdaily.com/wp-content/uploads/2024/05/beautiful-woman-with-reading-book.jpg 
+Math https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-380287895%2Fmath-clipart-cartoon-style-digital-stationery-mathematics-symbol-mathematics.html&psig=AOvVaw1cvSk-PIABUgPGetqg8Kar&ust=1716261945028000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCIixlI6km4YDFQAAAAAdAAAAABAE 
+History https://www.freepik.com/premium-vector/open-book-with-history-doodles-lettering-education-illustration_9751372.htm 
+Art
+https://www.amazon.com/Relaxing-Coloring-Therapy-by-Numbers/dp/B0B4JNS9PG/ref=zg_bs_9408532011_sccl_8/132-1427520-3692548?psc=1 
+
+Testimony:
+Gojo
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.oneesports.id%2Fanime%2Fgojo-satoru-tewas-jjk&psig=AOvVaw2lDEgyGGLyTzWVPKJL6Vmx&ust=1716998097622000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCKD_1r7asIYDFQAAAAAdAAAAABAE 
+Jieun
+https://br.pinterest.com/pin/628533691773260686/ 
+Doeun
+https://www.kpopmap.com/kpop-profile/young-posse-doeun/ 
+Hanni
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRGRFC6yDo9_LedMhddRdr5phljg0ltf6Ow&s 
+Mafuyu
+https://pbs.twimg.com/profile_images/1752430198920794112/X12UnDBI_400x400.jpg 
+
+
+
+
+Learn:
+Subtraction for kids
+https://youtu.be/rqiu_xcvSk4?si=X9ZzfKt03K9ZloyO 
+Counting with blocks
+https://youtu.be/Ds226Vh7epg?si=TsuZOKhnoboal_fq 
+Sum & difference
+https://youtu.be/UiGi2q7TqAQ?si=vICPKwTjDCeQGdJO 
+Adding & subtracting - mini math movies
+https://youtu.be/7J1OkxuyLD0?si=sQfZ7arDAlJzi5X2 
+
+
+Learning Multiplication and Division - Basic Math for Kids - Advanced level
+https://youtu.be/BNk-yaFguNs?si=TQkk4T77jJkucE-c 
+Multiplication for kids
+https://youtu.be/eW2dRLyoyds?si=5hAEzyi1mY2GxpW9 
+Long division! Learn how to do long division
+https://youtu.be/wAxEdmutf98?si=JHCcRiNiPw8Dxuei 
+
+
+
+
+History of Indonesia
+https://youtu.be/Z87kpqQa93k?si=YSCnFuZhwXoxB3SC 
+Why did Britain give Indonesia back to the Netherlands?
+https://youtu.be/a94pTDvjfgI?si=dvcHO7rZbfZvEpb4 
+Indonesia’s butterfly effect on human history
+https://youtu.be/OucN5gO8SI8?si=qBEukALbB63LwRA8 
+Super Short History of Indonesia
+https://youtu.be/U2YMewwotiQ?si=6Nd8stare-FZIo9f 
+
+How to Improve your art fast
+https://youtu.be/VhG7DENh-uk?si=EsmhSPH4BfvNuwC1 
+The beginners guide to drawing
+https://youtu.be/p0KsVNQpIQ0?si=1Vi33bpMKuq1OppU 
+How to draw basic anatomy
+https://youtu.be/AmoW_LqwQ40?si=3LrR4WtSSvrr8wGA 
+How to draw perspective
+https://youtu.be/4NDiNcJw7Lc?si=Um3U1UQSk8fXrfPq 
+
+
+
+
+
+
+Laufey-sight reading 101
+https://youtu.be/5hBQkyQ3UiA?si=8b2J2D52pRU1QR40 
+Learn music theory in half an hour
+https://youtu.be/rgaTLrZGlk0?si=VSxMePQQ87MNlUN9 
+Read music in 15 minutes
+https://youtu.be/yyqthu9T2xc?si=6375amNN2BeZ9nDg 
+Circle of fifths
+https://youtu.be/O43EBVnwNvo?si=nEJg66O925Mz_A6k 
+
+REFERENSI WEBSITE
+Ruangguru
+https://www.ruangguru.com/ 
+Udemy
+https://www.udemy.com/ 
+
+
+HTML
+Testimony
+Yeonjung
+https://id.pinterest.com/pin/777082110735170273/ 
+Sunhye
+https://aminoapps.com/c/k-pop/page/blog/sunhye-young-posse/akI0_unweEklW6qPqKl8Kw0DENWqdR 
+Jiana
+https://genius.com/artists/Jiana-young-posse 
+Scara
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMvLf3MwAJTXV9pea2tmDvHrH_aqi3MGZtig&s 
+
+
+LEARN
+How journal entries work
+https://youtu.be/Y-_Q3rANyxU?si=y14bgyhgiwlZfSff 
+Why debits and credits aren’t backwards
+https://youtu.be/ddb65RudGi0?si=j4fnpjtICKXfyK7W 
+TOEFL reading
+https://youtu.be/D4op4qp9MB0?si=bPwQ-HuvIYn4Ap-4 
+A full toefl structure 
+https://youtu.be/C859dKGMfhc?si=ceBhDC2tkA6nCpqT 
+Entrance exam tips
+https://youtu.be/t0MpNz4Y7kk?si=Ip0y-xh8MbxfqCIs 
+Entrance exam reviewer
+https://youtu.be/O21fydpCclk?si=rjsUdyblTfxcuQja 
+Learn html in 5 mins
+https://youtu.be/salY_Sm6mv4?si=XIzkOfcZskxPI1zz 
+Understanding B trees
+https://youtu.be/K1a2Bk8NrYQ?si=SQ9ro7KTQ_89hCmZ 
+
+
+
+
+BACKGROUNDS
+Purple watercolor bg
+https://i.pinimg.com/564x/66/ea/c6/66eac6f057ce67c8445a73ad1cbff3f6.jpg 
+Purple grid bg
+https://i.pinimg.com/564x/90/c9/1d/90c91df602a419a27fb3adee99d1a376.jpg 
+Aura sparkle purple bg
+https://i.pinimg.com/564x/66/d2/c5/66d2c5dc3d0b0cb5f3b7a4bacc41b7ee.jpg 
+Purple sparkly bg
+https://i.pinimg.com/564x/51/ab/25/51ab2561810aa58e0348417643c2e28b.jpg 
+
+
+HOME
+Learning illustration
+https://www.silabus.web.id/wp-content/uploads/2022/07/Contoh-Membuat-Event-Kegiatan-Osis-Biar-Eksis-di-Sekolah-768x480.jpg 
+Programming
+https://i.pinimg.com/564x/22/5a/42/225a42c8cfafbd20fa8510b5638fd0d8.jpg 
+Toefl
+https://i.pinimg.com/564x/d4/88/9b/d4889b1b8d6e65a6a0f22d925958f030.jpg 
+College prep
+https://i.pinimg.com/564x/75/88/ff/7588ffa7cab771cf9b3c4da80dfdfcc8.jpg 
+Accounting
+https://i.pinimg.com/564x/1e/3d/b9/1e3db9680bbcb0d8b7a1fb4443d4465c.jpg
